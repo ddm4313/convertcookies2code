@@ -1,6 +1,8 @@
 # convertcookies2code
 Convert Cookies to Code
 
+Preview at https://mighty-forest-32843.herokuapp.com/
+
 How is this done?
 ```
 dt.split(";").forEach(function(e) {
