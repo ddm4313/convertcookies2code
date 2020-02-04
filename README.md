@@ -1,6 +1,18 @@
 # convertcookies2code
 Convert Cookies to Code
 
+How is this done?
+```
+        dt.split(";").forEach(function(e) {
+            if (e.replace(" ", "") != "") {
+                var key = e.split("=")[0].trim()
+                var value = e.split("=")[1].trim()
+                dict[key] = value;
+            }
+        })
+        ```
+
+
 Simply convert cookies from Chrome request format to Code, currently only Python is supported, but you can edit the code to your own needs!
 
 ```
